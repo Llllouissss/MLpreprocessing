@@ -5,13 +5,13 @@ using StatsBase
 using LearnBase
 using DataFrames
 
-using LearnBase: ObsDimension, default_obsdim
+using LearnBase: ObsDimension, default_obsdim,ObsDim
 
 export
 
     
     expand_poly,
-    obsdim,
+    ObsDim,
 
     center!,
     standardize!,
