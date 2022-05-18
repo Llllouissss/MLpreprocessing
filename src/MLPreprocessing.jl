@@ -9,8 +9,9 @@ using LearnBase: ObsDimension, default_obsdim
 
 export
 
-    global ObsDim,
+    
     expand_poly,
+    ObsDim,
 
     center!,
     standardize!,
