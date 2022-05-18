@@ -9,7 +9,7 @@ using LearnBase: ObsDimension, default_obsdim
 
 export
 
-    ObsDimension,
+    global ObsDim,
     expand_poly,
 
     center!,
