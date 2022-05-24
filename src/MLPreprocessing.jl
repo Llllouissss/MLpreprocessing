@@ -23,7 +23,7 @@ export
     fit_transform,
     fit_transform!,
     transform,
-    transform!,
+    transform!
 
 include("scaleselection.jl")
 include("basis_expansion.jl")
