@@ -5,7 +5,7 @@ using StatsBase
 using LearnBase
 using DataFrames
 
-using LearnBase: ObsDimension, default_obsdim
+using LearnBase: ObsDimension, default_obsdim,ObsDim
 
 export
 
@@ -23,7 +23,7 @@ export
     fit_transform,
     fit_transform!,
     transform,
-    transform!
+    transform!,
 
 include("scaleselection.jl")
 include("basis_expansion.jl")
