@@ -5,7 +5,7 @@ using StatsBase
 using LearnBase
 using DataFrames
 
-using LearnBase: ObsDimension, default_obsdim,ObsDim
+using LearnBase: ObsDimension, default_obsdim
 
 export
 
